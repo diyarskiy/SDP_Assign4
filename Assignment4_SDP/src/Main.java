@@ -4,10 +4,11 @@ public class Main {
 
         AlchemyFacade alchemy = new AlchemyFacade();
 
-        alchemy.brewPotion("Heal");
+        alchemy.brewPotion("Healing");
         alchemy.brewPotion("Mana");
-        alchemy.brewPotion("Heal");
-        alchemy.brewPotion("Heal");
+        alchemy.brewPotion("Healing");
+        alchemy.brewPotion("Mana");
+        alchemy.brewPotion("Healing");
         alchemy.brewPotion("Unknown");
 
         alchemy.showInventory();
